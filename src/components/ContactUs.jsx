@@ -4,7 +4,9 @@ const ContactUs = () => {
       <div className="max-w-6xl mx-auto bg-white p-4 lg:flex lg:h-screen lg:items-center">
         <div className="grid md:grid-cols-2 gap-16 items-center relative overflow-hidden p-8 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] before:absolute before:right-0 before:w-[300px] before:bg-black before:h-full max-md:before:hidden">
           <div>
-            <h2 className="text-gray-800 text-3xl font-bold border-b-2 border-rose-500 pb-2">Get In Touch</h2>
+            <h2 className="text-gray-800 text-3xl font-bold border-b-2 border-rose-500 pb-2">
+              Get In Touch
+            </h2>
             <p className="text-sm text-gray-500 mt-4 leading-relaxed">
               Have a specific inquiry or looking to explore new opportunities?
               Our experienced team is ready to engage with you.
@@ -55,7 +57,7 @@ const ContactUs = () => {
 
               <button
                 type="button"
-                className="mt-8 flex items-center justify-center text-sm w-full px-4 py-2.5 bg-black hover:bg-black text-white"
+                className="mt-8 flex items-center justify-center text-sm w-full px-4 py-2.5 bg-black hover:bg-rose-500 text-white"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -90,8 +92,11 @@ const ContactUs = () => {
                     data-original="#000000"
                   />
                 </svg>
-                <a href="javascript:void(0)" className="text-sm ml-3">
-                  <strong>info@example.com</strong>
+                <a
+                  href="mailto:jaruncharles@gmail.com"
+                  className="text-sm ml-3"
+                >
+                  <strong>jaruncharles@gmail.com</strong>
                 </a>
               </li>
               <li className="flex items-center text-black">
@@ -107,7 +112,7 @@ const ContactUs = () => {
                     data-original="#000000"
                   ></path>
                 </svg>
-                <a href="javascript:void(0)" className="text-sm ml-3">
+                <a href="tel:+919944445553" className="text-sm ml-3">
                   <strong>+91 99444 45553</strong>
                 </a>
               </li>

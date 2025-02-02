@@ -54,7 +54,7 @@ const Services = () => {
             {services.map((service) => (
               <div
                 key={service.id}
-                className="flex flex-col items-center bg-gray-300 p-6 rounded-lg hover:scale-105 hover:shadow-xl transition-all duration-300"
+                className="flex flex-col items-center bg-gray-300 text-gray-800 p-6 rounded-lg hover:scale-105 hover:shadow-xl transition-all hover:bg-rose-500 hover:text-white duration-300"
               >
                 <div className="mb-4 bg-gray-100 p-2 rounded-lg">
                   <img
@@ -63,12 +63,10 @@ const Services = () => {
                     className="w-10 h-10 object-contain"
                   />
                 </div>
-                <h3 className="text-gray-800 text-xl font-bold mb-2 text-center">
+                <h3 className="text-xl font-bold mb-2 text-center">
                   {service.title}
                 </h3>
-                <p className="text-sm text-gray-600 text-center">
-                  {service.description}
-                </p>
+                <p className="text-sm text-center">{service.description}</p>
               </div>
             ))}
           </div>

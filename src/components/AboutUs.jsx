@@ -7,11 +7,13 @@ const AboutUs = () => {
             <img
               src="src/assets/f2logo black.svg"
               alt="Placeholder Image"
-              className="rounded-lg object-contain w-full h-full"
+              className="rounded-lg object-contain w-56 h-56 mx-auto sm:w-full sm:h-full"
             />
           </div>
           <div className="text-left">
-            <h2 className="text-gray-800 text-4xl text-center font-bold mb-6 border-b-2 border-rose-500 pb-2">About Us</h2>
+            <h2 className="text-gray-800 text-4xl text-center font-bold mb-6 border-b-2 border-rose-500 pb-2">
+              About Us
+            </h2>
             <p className="mb-4 text-md text-gray-800">
               At F2 Computers, we are passionate about providing top-notch
               laptop repair and maintenance services to keep you connected and
