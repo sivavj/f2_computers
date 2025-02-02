@@ -94,7 +94,7 @@ const ContactUs = () => {
                 </svg>
                 <a
                   href="mailto:jaruncharles@gmail.com"
-                  className="text-sm ml-3"
+                  className="text-sm ml-3 hover:text-rose-600 hover:underline"
                 >
                   <strong>jaruncharles@gmail.com</strong>
                 </a>
@@ -112,7 +112,10 @@ const ContactUs = () => {
                     data-original="#000000"
                   ></path>
                 </svg>
-                <a href="tel:+919944445553" className="text-sm ml-3">
+                <a
+                  href="tel:+919944445553"
+                  className="text-sm ml-3 hover:text-rose-600 hover:underline"
+                >
                   <strong>+91 99444 45553</strong>
                 </a>
               </li>
