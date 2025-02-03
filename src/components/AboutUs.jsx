@@ -5,7 +5,7 @@ const AboutUs = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:max-w-6xl max-w-2xl mx-auto">
           <div>
             <img
-              src="src/assets/f2logo black.svg"
+              src="/assets/f2logo black.svg"
               alt="Placeholder Image"
               className="rounded-lg object-contain w-56 h-56 mx-auto sm:w-full sm:h-full"
             />

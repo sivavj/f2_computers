@@ -2,7 +2,7 @@ const Banner = () => {
   return (
     <section
       id="#"
-      className="relative bg-[url(src/assets/computer_service_bg.jpg)] bg-cover bg-center bg-no-repeat"
+      className="relative bg-[url(/assets/computer_service_bg.jpg)] bg-cover bg-center bg-no-repeat"
     >
       <div className="absolute inset-0 bg-gray-900/75 sm:bg-transparent sm:from-gray-900/95 sm:to-gray-900/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
 

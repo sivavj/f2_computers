@@ -7,7 +7,7 @@ const Footer = () => {
             <div>
               <a href="#" aria-label="Home">
                 <img
-                  src="src/assets/f2black hor.svg"
+                  src="/assets/f2black hor.svg"
                   alt="F2 Computers Logo"
                   className="w-36"
                 />

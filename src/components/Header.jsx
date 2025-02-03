@@ -36,10 +36,10 @@ const Header = () => {
       <header className="container mx-auto flex py-4 px-4 sm:px-10 min-h-[70px] tracking-wide relative z-50">
         <div className="flex flex-wrap items-center justify-between gap-5 w-full">
           <a href="#" className="max-sm:hidden">
-            <img src="src/assets/f2black hor.svg" alt="logo" className="w-28" />
+            <img src="/assets/f2black hor.svg" alt="logo" className="w-28" />
           </a>
           <a href="#" className="hidden max-sm:block">
-            <img src="src/assets/f2logo black.svg" alt="logo" className="w-9" />
+            <img src="/assets/f2logo black.svg" alt="logo" className="w-9" />
           </a>
 
           <div
@@ -66,7 +66,7 @@ const Header = () => {
               <li className="mb-6 hidden max-lg:block">
                 <a href="#">
                   <img
-                    src="src/assets/f2black hor.svg"
+                    src="/assets/f2black hor.svg"
                     alt="logo"
                     className="w-36"
                   />

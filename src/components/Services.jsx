@@ -5,42 +5,42 @@ const Services = () => {
       title: "Laptop Dealer",
       description:
         "Authorized dealer offering a wide range of laptops to suit your personal and professional needs. Explore top brands and the latest models with competitive pricing and excellent customer support.",
-      image: "src/assets/laptop_dealer.svg",
+      image: "/assets/laptop_dealer.svg",
     },
     {
       id: 2,
       title: "Laptop Service Provider",
       description:
         "Expert laptop service and repair solutions tailored to keep your device running smoothly. From hardware fixes to software troubleshooting, we ensure quality service for all major laptop brands.",
-      image: "src/assets/service_provider.svg",
+      image: "/assets/service_provider.svg",
     },
     {
       id: 3,
       title: "Server Provider",
       description:
         "Reliable server solutions tailored to your business needs. We provide high-performance servers with scalable options, ensuring seamless operations and robust data management.",
-      image: "src/assets/server_provider.svg",
+      image: "/assets/server_provider.svg",
     },
     {
       id: 4,
       title: "All Brands of Computers, CCTV, Printers and More",
       description:
         "Explore top-tier brands for computers, CCTV systems, printers, and more. Whether it's the latest tech or essential office equipment, we provide reliable solutions for both home and business needs.",
-      image: "src/assets/accessories.svg",
+      image: "/assets/accessories.svg",
     },
     {
       id: 5,
       title: "Networking",
       description:
         "Explore top-tier networking products including routers, switches, and firewalls for home and business needs. We offer reliable solutions to ensure seamless connectivity and enhanced security.",
-      image: "src/assets/networking.svg",
+      image: "/assets/networking.svg",
     },
     {
       id: 6,
       title: "Accessories Sales & Services",
       description:
         "Explore top-quality accessories for all your devices, including phone cases, keyboards, headsets, and more. We provide expert sales and service support to enhance your tech experience.",
-      image: "src/assets/sales_service.svg",
+      image: "/assets/sales_service.svg",
     },
   ];
   return (
