@@ -1,8 +1,9 @@
-# React + Vite
+# F2 Computers
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+F2 Computers offers expert repair and maintenance for all major laptop brands, including screen repairs, battery replacements, and system upgrades. Our skilled technicians provide fast, reliable, and affordable solutions to keep your device at peak performance. Trust us to keep you connected and productive!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshots
+
+![Homepage](https://github.com/sivavj/f2_computers/blob/main/doc/demo.png)
